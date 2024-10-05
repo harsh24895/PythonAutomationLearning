@@ -5,7 +5,7 @@ import requests
 @pytest.mark.api
 def test_duckduckgo_instant_api():
     #arrange
-    url = "https://api.duckduckgo.com/?q=Python+programming&format=json" #it takes two parameters first:?q=programming+fun second:format=json
+    url = "https://api.duckduckgo.com/?q=Python+programming&format=json" #it takes two parameters first:?q=python+programming second:format=json
 
     #act
     response = requests.get(url) #send the http send request
