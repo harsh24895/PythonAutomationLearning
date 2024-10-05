@@ -9,7 +9,7 @@ def get_province(province_code):
         "AB":  "Alberta",
         "BC": "British Columbia",
         "ON": "Ontario",
-        "NS": "Nova Soctia"
+        "NB": "New Brunswick"
     }
     return provinces.get(province_code,"Unknown")
 
